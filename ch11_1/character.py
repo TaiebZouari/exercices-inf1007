@@ -20,9 +20,12 @@ class Weapon:
 	
 	# TODO: __init__
 	#       En Python et dans le modèle de documentation Sphinx, on met les paramètres du __init__ dans le docstring de la classe.
-	
+	def _init_(self, nom, power, min_level):
+		self.nom=nom
+		self.power= power
+		self.min_level= min_level
 	# TODO: Propriétés
-	
+	def 
 	# TODO: is_usable_by
 
 	# TODO: use
